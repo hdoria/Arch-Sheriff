@@ -1,0 +1,4 @@
+* Update pkg-vulnerabilities by running:
+  wget -N http://ftp.netbsd.org/pub/NetBSD/packages/vulns/pkg-vulnerabilities
+* Run './sheriff.py > sheriff.out'.
+* Include patched vulnerabilities in ignored-urls, one url per line.
